@@ -8,7 +8,7 @@ public class CannonStatus : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("EnemyKid"))
         {
-            //gameover
+            GameManager.Instance.GameOver();
         }
     }
 }

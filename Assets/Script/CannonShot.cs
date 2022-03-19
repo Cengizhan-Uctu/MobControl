@@ -10,6 +10,7 @@ public class CannonShot : MonoBehaviour
     [SerializeField] GameObject gunBarrel;
     [SerializeField] GameObject kid;
     [SerializeField] float shotDelay;
+    [SerializeField] GameObject effect;
     int bigBrotherCarge;
     UIManager uıCahrge;
 
@@ -21,6 +22,7 @@ public class CannonShot : MonoBehaviour
    public void Soting()
     {
         Instantiate(kid, gunBarrel.transform.position, Quaternion.identity);
+        Instantiate(effect, gunBarrel.transform.position, Quaternion.identity);
         bigBrotherCarge++;
         uıCahrge.BigBrotherSiliderChange(bigBrotherCarge);
     }

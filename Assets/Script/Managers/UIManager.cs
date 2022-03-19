@@ -30,7 +30,7 @@ public class UIManager : SingeltonGenerik<UIManager>
     void GameOverUI()
     {
         GameCanvas.SetActive(true);
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
         StartBtn.SetActive(false);
         ReplayBtn.SetActive(true);
         NextLevelBtn.SetActive(false);
@@ -38,7 +38,7 @@ public class UIManager : SingeltonGenerik<UIManager>
     void WinUI()
     {
         GameCanvas.SetActive(true);
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
         StartBtn.SetActive(false);
         ReplayBtn.SetActive(false);
         NextLevelBtn.SetActive(true);
@@ -46,10 +46,10 @@ public class UIManager : SingeltonGenerik<UIManager>
     void StartUI()
     {
         GameCanvas.SetActive(true);
-       // Time.timeScale = 0;
         StartBtn.SetActive(true);
         ReplayBtn.SetActive(false);
         NextLevelBtn.SetActive(false);
+        Time.timeScale = 0;
     }
    public void BigBrotherSiliderChange(int cahrge)
     {

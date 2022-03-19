@@ -27,7 +27,7 @@ public class EnemyTower : MonoBehaviour
         for (int i = 0; i < waveEnemyCount; i++)
         {
 
-            Instantiate(Enemy, transform.position, Quaternion.identity);
+            Instantiate(Enemy, transform.position, transform.rotation);
         }
     }
    

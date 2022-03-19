@@ -13,11 +13,14 @@ public class EnemyToweStatus : MonoBehaviour
     }
     public void ToverHealtDecrease()
     {
+        towerHelat -= 1;
         if (towerHelat < 0)
         {
-            Destroy(gameObject);// kale yıkılışı anımasyon sonra batır
+            GameManager.Instance.GameWin();
+            towerHelat = 0;
+
         }
-        towerHelat -= 1;
+       
     }
     private void OnTriggerEnter(Collider other)
     {
