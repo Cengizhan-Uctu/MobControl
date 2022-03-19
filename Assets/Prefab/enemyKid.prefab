@@ -930,7 +930,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyKidHelad: 100
-  IsPassDorEnemy: 0
 --- !u!114 &1314606132154108233
 MonoBehaviour:
   m_ObjectHideFlags: 0

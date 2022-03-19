@@ -17,28 +17,14 @@ public class CannonShot : MonoBehaviour
     {
         uıCahrge = FindObjectOfType<UIManager>();
     }
-    IEnumerator RangeShoting()
-    {
-       
-        while (isSoting)
-        {
-           
-            Soting();
-            yield return new WaitForSeconds(shotDelay);
-        }
-       
-    }
-    void Soting()
+   
+   public void Soting()
     {
         Instantiate(kid, gunBarrel.transform.position, Quaternion.identity);
         bigBrotherCarge++;
         uıCahrge.BigBrotherSiliderChange(bigBrotherCarge);
     }
-    public void Fire()
-    {
-        
-        StartCoroutine(RangeShoting());
-    }
+   
     public void SpawnBigBrother()
     {
         if (bigBrotherCarge >= 10)
@@ -48,4 +34,5 @@ public class CannonShot : MonoBehaviour
             uıCahrge.BigBrotherSiliderChange(bigBrotherCarge);
         }
     }
+  
 }

@@ -5,11 +5,14 @@ using UnityEngine;
 public class MobilInput : MonoBehaviour
 {
     private Touch isTouch;
-    [SerializeField] float speed=1;
+    [SerializeField] float speed = 1;
     [SerializeField] CannonShot Shoting;
+    [SerializeField] float Delay;
+    float countSpawn;
+
     private void Update()
     {
-       
+
         if (Input.touchCount > 0)
         {
             isTouch = Input.GetTouch(0);
@@ -18,23 +21,25 @@ public class MobilInput : MonoBehaviour
     }
     private void MoveCannon()
     {
-        if (isTouch.phase == TouchPhase.Began)
+
+        if (isTouch.phase == TouchPhase.Moved || isTouch.phase == TouchPhase.Stationary)
         {
-            CannonShot.isSoting = true;
-            Shoting.Fire();
-            
-        }
-        if (isTouch.phase == TouchPhase.Moved)
-        {
+            if (Time.time > countSpawn)
+            {
+                Shoting.Soting();
+                countSpawn = Time.time + Delay;
+            }
             LineMove();
         }
-        if (isTouch.phase== TouchPhase.Ended)
+        if (isTouch.phase == TouchPhase.Ended)
         {
-            CannonShot.isSoting = false;
+
+
             Shoting.SpawnBigBrother();
+
         }
-      
-        
+
+
     }
     void LineMove()
     {
@@ -43,5 +48,6 @@ public class MobilInput : MonoBehaviour
             transform.localPosition.y,
             transform.localPosition.z);
     }
+
 
 }
