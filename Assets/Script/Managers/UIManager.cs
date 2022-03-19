@@ -10,6 +10,7 @@ public class UIManager : SingeltonGenerik<UIManager>
     [SerializeField] GameObject ReplayBtn;
     [SerializeField] GameObject NextLevelBtn;
     [SerializeField] Slider ChargeOfSilider;
+    [SerializeField] Text enemyToverHeal;
     private void OnEnable()
     {
         GameManager.Instance.OnGameOver += GameOverUI;
@@ -53,5 +54,9 @@ public class UIManager : SingeltonGenerik<UIManager>
    public void BigBrotherSiliderChange(int cahrge)
     {
         ChargeOfSilider.value = cahrge;
+    }
+    public void TowerHealtText(int healt)
+    {
+        enemyToverHeal.text = healt.ToString();
     }
 }

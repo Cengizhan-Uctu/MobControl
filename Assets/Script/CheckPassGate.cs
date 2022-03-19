@@ -16,7 +16,7 @@ public class CheckPassGate : MonoBehaviour
         for (int i = 0; i < gates.Length; i++)
         {
             gatesNameList.Add(gates[i].name);
-            Debug.Log(gates[i].name);
+          
         }
 
     }
@@ -28,7 +28,7 @@ public class CheckPassGate : MonoBehaviour
         {
             for (int i =0; i<other.GetComponent<GateStatus>().multiplier-1;i++) 
             {
-                GameObject newchlid = Instantiate(gameObject, transform.position, Quaternion.identity);
+                GameObject newchlid = Instantiate(gameObject, transform.position, transform.rotation);
                 newchlid.GetComponent<CheckPassGate>().listdegress(other.name);
                 listdegress(other.name);
             }
