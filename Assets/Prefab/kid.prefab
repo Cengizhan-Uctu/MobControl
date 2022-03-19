@@ -808,9 +808,9 @@ GameObject:
   - component: {fileID: 1484217742}
   - component: {fileID: 1484217743}
   - component: {fileID: 1484217744}
+  - component: {fileID: 3130197067080206762}
   - component: {fileID: 1484217747}
   - component: {fileID: 5582282353574054763}
-  - component: {fileID: 3130197067080206762}
   m_Layer: 7
   m_Name: kid
   m_TagString: Kid
@@ -905,6 +905,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3130197067080206762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2252801066898039886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd1332a6dc4c76549b77a40e301ffb3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1484217747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,18 +943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KidHealt: 100
   IsPassDor: 0
---- !u!114 &3130197067080206762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2252801066898039886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1332a6dc4c76549b77a40e301ffb3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2252801066898039888
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CannonShot.cs" />
+    <Compile Include="Assets\Script\CheckPassGate.cs" />
     <Compile Include="Assets\Assetstore\GrassRoadRace\Script\CameraMove.cs" />
     <Compile Include="Assets\Script\GateStatus.cs" />
     <Compile Include="Assets\Script\GateMove.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Assets\Script\Managers\GameManager.cs" />
     <Compile Include="Assets\Script\CannonStatus.cs" />
     <Compile Include="Assets\Script\Managers\SingeltonGenerik.cs" />
+    <Compile Include="Assets\Script\test\WaveMove.cs" />
     <Compile Include="Assets\Script\KidMove.cs" />
     <Compile Include="Assets\Script\test\PlayerMove.cs" />
     <Compile Include="Assets\Script\EnemyToweStatus.cs" />
@@ -70,7 +72,7 @@
     <Compile Include="Assets\Script\MobilInput.cs" />
     <Compile Include="Assets\Script\test\WaveWall.cs" />
     <Compile Include="Assets\Script\KidStad.cs" />
-    <Compile Include="Assets\Script\CheckPassGate.cs" />
+    <Compile Include="Assets\Script\test\testt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assetstore\BizulkaProduction\Stickman\README.txt" />
