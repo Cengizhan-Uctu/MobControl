@@ -160,7 +160,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 34.2}
-  m_SizeDelta: {x: 200, y: 100}
+  m_SizeDelta: {x: 300, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4139061
 MonoBehaviour:
@@ -446,6 +446,10 @@ PrefabInstance:
       propertyPath: xPosBegan
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7693207848163864991, guid: 247d78172681dde41a7b4c623912045c, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7693207849865868273, guid: 247d78172681dde41a7b4c623912045c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -662,6 +666,10 @@ PrefabInstance:
       propertyPath: xPosBegan
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7693207848163864991, guid: 247d78172681dde41a7b4c623912045c, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7693207849865868273, guid: 247d78172681dde41a7b4c623912045c, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -798,7 +806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 2252801066898039886, guid: ee6fafd88f23a154186996aa9cc34da7, type: 3}
   enemySpawnDelay: 20
-  waveEnemyCount: 2
+  waveEnemyCount: 10
 --- !u!23 &600382760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -894,6 +902,10 @@ PrefabInstance:
     - target: {fileID: 7693207848028972635, guid: 247d78172681dde41a7b4c623912045c, type: 3}
       propertyPath: xPosBegan
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7693207848163864991, guid: 247d78172681dde41a7b4c623912045c, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7693207849865868273, guid: 247d78172681dde41a7b4c623912045c, type: 3}
       propertyPath: m_RootOrder
@@ -994,7 +1006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2039,6 +2051,10 @@ PrefabInstance:
       propertyPath: xPosBegan
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7693207848163864991, guid: 247d78172681dde41a7b4c623912045c, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7693207849865868273, guid: 247d78172681dde41a7b4c623912045c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2479,7 +2495,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 34.2}
-  m_SizeDelta: {x: 200, y: 100}
+  m_SizeDelta: {x: 300, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009691285
 MonoBehaviour:
@@ -2612,7 +2628,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 34.2}
-  m_SizeDelta: {x: 200, y: 100}
+  m_SizeDelta: {x: 300, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057855609
 MonoBehaviour:
