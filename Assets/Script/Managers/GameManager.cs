@@ -13,7 +13,8 @@ public class GameManager : SingeltonGenerik<GameManager>
     #endregion
     public event System.Action OnGameOver;
     public event System.Action OnWin;
-    
+    public event System.Action OWaveEnd;
+
 
     public void GameOver()
     {
@@ -23,6 +24,10 @@ public class GameManager : SingeltonGenerik<GameManager>
     public void GameWin()
     {
         OnWin?.Invoke();
+    }
+    public void WaveEnd()
+    {
+        OWaveEnd?.Invoke();
     }
    
 }

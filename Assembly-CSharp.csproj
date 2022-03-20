@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
-    <Compile Include="Assets\Script\test\testt.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\Script\CannonShot.cs" />
     <Compile Include="Assets\Script\CheckPassGate.cs" />
@@ -66,6 +65,7 @@
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Assetstore\GrassRoadRace\Script\CameraMove.cs" />
+    <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\Script\GateStatus.cs" />
     <Compile Include="Assets\Script\GateMove.cs" />
@@ -74,11 +74,10 @@
     <Compile Include="Assets\Script\Managers\GameManager.cs" />
     <Compile Include="Assets\Script\CannonStatus.cs" />
     <Compile Include="Assets\Script\Managers\SingeltonGenerik.cs" />
+    <Compile Include="Assets\Script\Managers\Scenemanager.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\Script\test\WaveMove.cs" />
     <Compile Include="Assets\Script\KidMove.cs" />
-    <Compile Include="Assets\Script\test\PlayerMove.cs" />
     <Compile Include="Assets\Script\EnemyToweStatus.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
@@ -87,11 +86,9 @@
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Script\EnemyKidStad.cs" />
     <Compile Include="Assets\Script\MobilInput.cs" />
-    <Compile Include="Assets\Script\test\WaveWall.cs" />
     <Compile Include="Assets\Assetstore\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\Script\KidStad.cs" />
-    <Compile Include="Assets\UI pack\Scripts\FillValueNumber.cs" />
-    <Compile Include="Assets\Script\Managers\Scenemanager.cs" />
+    <Compile Include="Assets\Script\test\TestCononMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assetstore\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />

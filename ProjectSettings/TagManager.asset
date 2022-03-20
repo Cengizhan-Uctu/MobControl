@@ -8,6 +8,8 @@ TagManager:
   - EnemyKid
   - Kid
   - Gate
+  - Point
+  - Base
   layers:
   - Default
   - TransparentFX
